@@ -13,7 +13,7 @@ EOT
     name                   = string
     network_manager_id     = string
     description            = optional(string)
-    route_table_usage_mode = optional(string) # Default: "ManagedOnly"
+    route_table_usage_mode = optional(string)
   }))
 }
 
